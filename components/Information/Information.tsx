@@ -7,7 +7,7 @@ const Information = (props: any) => {
       <div className={styles.information} id="infor">
         <div className={styles.first_block}>
           <span className={styles.first_title}>
-            <span className={styles.text_gradient}>Dịch vụ PBN </span> - Chiến
+            <h1 className={styles.text_gradient}>Dịch vụ PBN </h1> - Chiến
             lược thúc đẩy tăng trưởng traffic mạnh mẽ sau 2- 3 tháng
           </span>
           <span className={styles.first_description}>
@@ -40,8 +40,8 @@ const Information = (props: any) => {
       <div className={styles.benefit}>
         <div className={styles.first_block}>
           <span className={styles.second_title}>
-            Tim hieu
-            <p className={styles.text_gradient_1}> KHÁI NIỆM PBN LÀ GÌ?</p>
+            Tìm hiểu
+            <h2 className={styles.text_gradient_1}> KHÁI NIỆM PBN LÀ GÌ?</h2>
           </span>
 
           <span className={styles.second_description}>
@@ -64,7 +64,7 @@ const Information = (props: any) => {
       <div className={styles.value_block}>
         <div className={styles.thirth_block}>
           <span className={styles.thirth_title}> Vai trò của </span>
-          <p className={styles.text_gradient_1}> PBN trong SEO</p>
+          <h2 className={styles.text_gradient_1}> PBN trong SEO</h2>
         </div>
 
         <div className={styles.images_values_block}>

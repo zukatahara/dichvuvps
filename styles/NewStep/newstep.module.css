@@ -1,198 +1,200 @@
 .newStep {
-    padding: 0 120px;
-    /* display: flex; */
-    padding-bottom: 5rem;
-    width: 100%;
-    margin: 0 auto;
+  padding: 0 120px;
+  /* display: flex; */
+  padding-bottom: 5rem;
+
+  width: 100%;
+  margin: 0 auto;
 }
 
 .newStep .title {
-    text-align: center;
-    margin: auto;
-    color: black;
-    margin-bottom: 2rem;
+  text-align: center;
+  margin: auto;
+  color: black;
+  margin-bottom: 2rem;
 }
 
 .newStep .title span {
-    margin: 0;
-    font-weight: 800;
-    font-size: 32px;
-    background: linear-gradient(#41D7EC, #C904DE);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+  margin: 0;
+  font-weight: 800;
+  font-size: 32px;
+  background: linear-gradient(#41d7ec, #c904de);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .newStep .main {
-
-    display: block;
-    /* border: 1px solid transparent; */
-    border-radius: 10px;
-    padding: 4rem 1rem;
-    background: linear-gradient(111.05deg, #E9F7FF 9.66%, #FFDBD5 57.52%, #F8CAFF 103.42%);
-    /* background: linear-gradient(#E9F7FF, #FFDBD4, #F8CAFF); */
+  display: block;
+  /* border: 1px solid transparent; */
+  border-radius: 10px;
+  padding: 0 80px;
+  padding-top: 176px;
+  padding-bottom: 176px;
+  background: linear-gradient(
+    111.05deg,
+    #e9f7ff 9.66%,
+    #ffdbd5 57.52%,
+    #f8caff 103.42%
+  );
+  /* background: linear-gradient(#E9F7FF, #FFDBD4, #F8CAFF); */
 }
 
 .newStep .main .box {
-    display: block;
+  display: block;
 }
 
 .newStep .main .box {
-    display: block;
+  display: block;
 }
 
 .main .box .content {
-    display: flex;
-    align-items: start;
-    justify-content: right;
+  display: flex;
+  align-items: start;
+  justify-content: right;
 }
 
 .main .box .content:last-child .middleContent .divider {
-    display: none;
+  display: none;
 }
 
 .main .box .content:nth-child(even) {
-    flex-direction: row-reverse;
-    /* justify-content: left; */
+  flex-direction: row-reverse;
+  /* justify-content: left; */
 }
 
 .main .box .content:nth-child(even) .leftContent {
-    text-align: left !important;
-    padding: 0;
-    padding-left: 1rem;
+  text-align: left !important;
+  padding: 0;
+  padding-left: 1rem;
 }
 
 /* .main .box .content:nth-child(odd) {
     flex-direction: row-reverse;
 } */
 .main .box .content .leftContent {
-    flex-basis: 42%;
-    text-align: right;
-    margin-top: -3rem;
+  flex-basis: 42%;
+  text-align: right;
+  margin-top: -3rem;
 }
 
 .main .box .content .middleContent {
-    flex-basis: 16%;
+  flex-basis: 16%;
 }
 
 .main .box .content .middleContent .divider {
-    height: 12px;
-    width: 2px;
-    background: #E38676;
-    margin: auto;
-    margin-bottom: 2px;
+  height: 12px;
+  width: 2px;
+  background: #e38676;
+  margin: auto;
+  margin-bottom: 2px;
 }
 
 .main .box .content .middleContent .customCycle {
-    height: 86px;
-    width: 86px;
-    border-radius: 50%;
-    background: linear-gradient(#41D7EC 10%, #C904DE);
-    padding: 8px;
-    align-items: center;
-    margin: auto;
+  height: 86px;
+  width: 86px;
+  border-radius: 50%;
+  background: linear-gradient(#41d7ec 10%, #c904de);
+  padding: 8px;
+  align-items: center;
+  margin: auto;
 }
 
 .main .box .content .middleContent .customCycle .stepNumber {
-    width: 100%;
-    height: 100%;
-    background: white;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  height: 100%;
+  background: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-
+.main .box .content .middleContent .customCycle .stepNumber span {
+  color: #292930;
+  z-index: 9999;
+}
 .main .box .content .rightContent {
-    flex-basis: 42%;
-
+  flex-basis: 42%;
 }
-
-
 
 .main .box .content .rightContent p.title {
-    color: #292930;
-    margin-bottom: 1rem;
-    text-align: left;
-    font-size: 20px;
+  color: #292930;
+  margin-bottom: 1rem;
+  text-align: left;
+  font-size: 20px;
 }
 
 .main .box .content .rightContent p.decs {
-    color: rgba(92, 92, 92, 1);
+  color: rgba(92, 92, 92, 1);
 }
 
 /* max-size */
 @media (min-width: 1400px) {
-    .newStep {
-        max-width: 1400px;
-    }
-
+  .newStep {
+    max-width: 1400px;
+  }
 }
 
 /* laptop */
 @media (min-width: 992px) {
-    .newStep {
-        width: 100%;
-    }
+  .newStep {
+    width: 100%;
+  }
 }
 
 /* tablet */
 @media (max-width: 991px) {
-    .newStep {
-        padding: 0;
-    }
+  .newStep {
+    padding: 0;
+  }
 
-    .newStep .main {
-        border-radius: 0;
-    }
+  .newStep .main {
+    border-radius: 0;
+    padding: 64px 86px;
+  }
+  .main .box .content .leftContent {
+    width: 0%;
+    display: none;
+  }
 
-    .main .box .content .leftContent {
-        width: 0%;
-        display: none;
-    }
+  .main .box .content {
+    justify-content: left;
+  }
 
-    .main .box .content {
-        justify-content: left;
-    }
+  .main .box .content:nth-child(even) {
+    flex-direction: unset;
+    justify-content: left;
+  }
 
-    .main .box .content:nth-child(even) {
-        flex-direction: unset;
-        justify-content: left;
-    }
+  .main .box .content .rightContent {
+    flex-basis: 84%;
+  }
 
-    .main .box .content .rightContent {
-        flex-basis: 84%;
-    }
-
-    .main .box .content .middleContent .divider:nth-last-child(-n + 5) {
-        display: none;
-    }
-
+  .main .box .content .middleContent .divider:nth-last-child(-n + 5) {
+    display: none;
+  }
 }
-
 
 /* mobile */
 @media only screen and (max-width: 767.9999px) {
-    .newStep .main {
-        padding: 2rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
+  .newStep .main {
+    padding: 32px 17px;
+  }
 
-    .main .box .content .rightContent {
-        flex-basis: 84%;
-        padding-left: 1rem;
-    }
+  .main .box .content .rightContent {
+    flex-basis: 84%;
+    padding-left: 1rem;
+  }
 
-    .main .box .content .middleContent .customCycle {
-        height: 60px;
-        width: 60px;
-    }
+  .main .box .content .middleContent .customCycle {
+    height: 60px;
+    width: 60px;
+  }
 
-    .main .box .content .middleContent .divider:nth-last-child(-n + 11) {
-        display: none;
-    }
+  .main .box .content .middleContent .divider:nth-last-child(-n + 11) {
+    display: none;
+  }
 
-    .rightContent p.decs {
-        display: none;
-    }
+  .rightContent p.decs {
+    display: none;
+  }
 }

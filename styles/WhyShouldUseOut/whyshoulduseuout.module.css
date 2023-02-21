@@ -33,6 +33,7 @@
   display: flex;
   gap: 1rem;
   margin-bottom: 2rem;
+  padding: 0px 7rem;
 }
 
 .why_use .main .onemain .box {
@@ -268,7 +269,9 @@
   .why_use {
     padding: 0 1rem;
   }
-
+  .why_use .main .onemain {
+    padding: 0;
+  }
   .why_use .main .twomain {
     margin: 0;
   }
@@ -323,5 +326,10 @@
   .mainTwo .box .leftContent .bigCustom .custom .customBorder {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+}
+@media only screen and (min-width: 1120px) and (max-width: 1160px) {
+  .why_use .main .onemain {
+    padding: 0px 6rem;
   }
 }
