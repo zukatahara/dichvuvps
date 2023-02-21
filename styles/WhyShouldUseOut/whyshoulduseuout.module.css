@@ -55,12 +55,14 @@
   color: white;
   border-radius: 10px;
   background-color: #5708cd;
+  cursor: pointer;
 }
 
 .why_use .main .onemain .box .childTwo,
 .why_use .main .onemain .box .childThree {
   border-radius: 10px;
   color: #bc9ceb;
+  cursor: pointer;
 }
 
 .why_use .main .twomain {
@@ -105,7 +107,7 @@
   display: flex;
   gap: 2rem;
 }
-
+.twomain,
 .mainTwo .box {
   flex: 1;
 }
@@ -121,17 +123,17 @@
   border-radius: 12px;
 }
 
-.mainTwo .box .leftContent .bigCustom:first-child .custom:first-child {
+/* .mainTwo .box .leftContent .bigCustom:first-child .custom:first-child {
   border-radius: 12px;
   background: #5708cd;
   color: white;
-}
+} */
 
 .mainTwo .box .leftContent .bigCustom .titleMobile {
   display: none;
 }
 
-.mainTwo
+/* .mainTwo
   .box
   .leftContent
   .bigCustom:nth-child(1)
@@ -146,7 +148,7 @@
   p:nth-child(1) {
   color: white;
   background: #5708cd;
-}
+} */
 
 .mainTwo .box .leftContent .bigCustom .custom .customBorder {
   display: flex;
@@ -162,6 +164,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
+  cursor: pointer;
 }
 
 .mainTwo .box .leftContent .bigCustom .titleMobile .content {

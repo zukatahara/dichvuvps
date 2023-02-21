@@ -88,6 +88,7 @@ const Navbar = (props: any) => {
           </button>
         </ul>
       </div>
+
     </>
   );
 };
