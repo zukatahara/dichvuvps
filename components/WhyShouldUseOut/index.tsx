@@ -152,8 +152,8 @@ const WhyShouldUseOut = (props: any) => {
 
                   </div>
                 </div>
-                <div className={styles.titleMobile} style={{ display: pTagColor === 0 ? "block" : "none" }}>
-                  <div className={styles.content}>
+                <div className={styles.titleMobile} >
+                  <div className={styles.content} style={{ display: pTagColor === 0 ? "block" : "none" }}>
                     <div className={styles.titleMobileaa}>
                       <div>
                         <p>
@@ -206,8 +206,8 @@ const WhyShouldUseOut = (props: any) => {
                     </svg>
                   </div>
                 </div>
-                <div className={styles.titleMobile} style={{ display: pTagColor === 1 ? "block" : "none" }}>
-                  <div className={styles.content}>
+                <div className={styles.titleMobile} >
+                  <div className={styles.content} style={{ display: pTagColor === 1 ? "block" : "none" }}>
                     <div className={styles.titleMobileaa}>
                       <div>
                         <p>
@@ -260,8 +260,8 @@ const WhyShouldUseOut = (props: any) => {
                     </svg>
                   </div>
                 </div>
-                <div className={styles.titleMobile} style={{ display: pTagColor === 2 ? "block" : "none" }}>
-                  <div className={styles.content}>
+                <div className={styles.titleMobile} >
+                  <div className={styles.content} style={{ display: pTagColor === 2 ? "block" : "none" }}>
                     <div className={styles.titleMobileaa}>
                       <div>
                         <p>
@@ -314,8 +314,8 @@ const WhyShouldUseOut = (props: any) => {
                     </svg>
                   </div>
                 </div>
-                <div className={styles.titleMobile} style={{ display: pTagColor === 3 ? "block" : "none" }}>
-                  <div className={styles.content}>
+                <div className={styles.titleMobile}>
+                  <div className={styles.content} style={{ display: pTagColor === 3 ? "block" : "none" }}>
                     <div className={styles.titleMobileaa}>
                       <div>
                         <p>
@@ -369,8 +369,8 @@ const WhyShouldUseOut = (props: any) => {
                     </svg>
                   </div>
                 </div>
-                <div className={styles.titleMobile} style={{ display: pTagColor === 4 ? "block" : "none" }}>
-                  <div className={styles.content}>
+                <div className={styles.titleMobile} >
+                  <div className={styles.content} style={{ display: pTagColor === 4 ? "block" : "none" }}>
                     <div className={styles.titleMobileaa}>
                       <div>
                         <p>
@@ -423,8 +423,8 @@ const WhyShouldUseOut = (props: any) => {
                     </svg>
                   </div>
                 </div>
-                <div className={styles.titleMobile} style={{ display: pTagColor === 5 ? "block" : "none" }}>
-                  <div className={styles.content}>
+                <div className={styles.titleMobile}>
+                  <div className={styles.content} style={{ display: pTagColor === 5 ? "block" : "none" }}>
                     <div className={styles.titleMobileaa}>
                       <div>
                         <p>
@@ -477,8 +477,8 @@ const WhyShouldUseOut = (props: any) => {
                     </svg>
                   </div>
                 </div>
-                <div className={styles.titleMobile} style={{ display: pTagColor === 6 ? "block" : "none" }}>
-                  <div className={styles.content}>
+                <div className={styles.titleMobile} >
+                  <div className={styles.content} style={{ display: pTagColor === 6 ? "block" : "none" }}>
                     <div className={styles.titleMobileaa}>
                       <div>
                         <p>

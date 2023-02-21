@@ -113,6 +113,7 @@
 }
 
 .mainTwo .box .leftContent .bigCustom {
+  border-radius: 10px;
 }
 
 .mainTwo .box .leftContent .bigCustom .custom {
@@ -225,6 +226,7 @@
 }
 
 .rightContent .custom .customBorder {
+  border-radius: 10px;
 }
 
 .rightContent .custom .customBorder .twomain {
