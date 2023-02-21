@@ -1,0 +1,310 @@
+.why_use {
+    margin: 0 auto;
+    margin-top: 5rem;
+    padding: 0 120px;
+    width: 100%;
+    margin-bottom: 5rem;
+}
+
+
+
+.why_use .title {
+    text-align: center;
+    margin: auto;
+    color: black;
+    margin-bottom: 2rem;
+}
+
+.why_use .title span {
+    margin: 0;
+    font-weight: 800;
+    font-size: 32px;
+    background: linear-gradient(#41D7EC, #C904DE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.why_use .title .decs {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: #5C5C5C;
+}
+
+.why_use .main .onemain {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.why_use .main .onemain .box {
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(#41D7EC, #C904DE);
+
+    margin-bottom: 1rem;
+}
+
+.why_use .main .onemain .box p {
+    border-top-left-radius: 0px;
+    background-color: white;
+    padding: 16px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.why_use .main .onemain .box .childOne {
+    color: white;
+    border-radius: 10px;
+    background-color: #5708CD;
+}
+
+.why_use .main .onemain .box .childTwo,
+.why_use .main .onemain .box .childThree {
+    border-radius: 10px;
+    color: #BC9CEB;
+}
+
+.why_use .main .twomain {
+    margin: 0 102px;
+    /* border: 1px solid ; */
+    border-radius: 12px;
+    background: linear-gradient(115.89deg, #41D7EC 16.3%, #C904DE 83.6%);
+    padding: 2px;
+    overflow: hidden !important;
+
+}
+
+.twomain .title {
+    border-radius: 10px;
+    padding: 24px 80px;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.twomain .title p {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(92, 92, 92, 1);
+}
+
+.twomain .image {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1rem;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.mainTwo {
+    display: flex;
+    gap: 2rem
+}
+
+.mainTwo .box {
+    flex: 1;
+}
+
+.mainTwo .box .leftContent .bigCustom {}
+
+.mainTwo .box .leftContent .bigCustom .custom {
+    background: linear-gradient(#41D7EC, #C904DE);
+    /* background: linear-gradient(272.8deg, #05D1ED -6.65%, #6D1CBE -6.63%, #00C3FF 146.2%, #00C3FF 146.2%); */
+    padding: 2px;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+}
+
+.mainTwo .box .leftContent .bigCustom:first-child .custom:first-child {
+    border-radius: 12px;
+    background: #5708CD;
+    color: white;
+}
+
+.mainTwo .box .leftContent .bigCustom .titleMobile {
+    display: none;
+}
+
+.mainTwo .box .leftContent .bigCustom:nth-child(1) .custom:nth-child(1) .customBorder:nth-child(1),
+.mainTwo .box .leftContent .bigCustom:nth-child(1) .custom:nth-child(1) .customBorder:nth-child(1) p:nth-child(1) {
+    color: white;
+    background: #5708CD;
+}
+
+.mainTwo .box .leftContent .bigCustom .custom .customBorder {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 40px;
+    gap: 10px;
+    width: 100%;
+    background: white;
+    height: 72px;
+    /* Primary */
+    border-radius: 10px;
+    /* background: red; */
+    /* background: linear-gradient(272.8deg, #05D1ED -6.65%, #6D1CBE -6.63%, #00C3FF 146.2%, #00C3FF 146.2%); */
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+.mainTwo .box .leftContent .bigCustom .titleMobile .content {
+    margin-top: -1rem;
+    color: rgba(92, 92, 92, 1);
+    background-image: linear-gradient(to bottom, #E9F7FF 0%, #FFDBD4 51.05%, #F8CAFF 100%);
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+    padding: 2px;
+    width: 100%;
+    /* background: white; */
+    border-radius: 12px;
+    /* background: red; */
+    /* background: linear-gradient(272.8deg, #05D1ED -6.65%, #6D1CBE -6.63%, #00C3FF 146.2%, #00C3FF 146.2%); */
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-bottom: 1rem;
+}
+
+.mainTwo .box .leftContent .bigCustom .titleMobile .content .titleMobileaa {
+    font-size: 14px;
+    display: flex;
+    padding: 1rem;
+    background-color: white !important;
+    border-radius: 12px;
+}
+
+.mainTwo .box .leftContent .bigCustom .custom .customBorder p {
+    color: rgba(188, 156, 235, 1);
+
+}
+
+.mainTwo .box .rightContent {
+    border-radius: 12px;
+    border: 1px solid transparent;
+    /* margin: 2px; */
+    padding: 1px;
+    /* background: red; */
+    background: linear-gradient(272.8deg, #05D1ED -6.65%, #6D1CBE -6.63%, #00C3FF 146.2%, #00C3FF 146.2%);
+
+}
+
+.rightContent .custom {}
+
+.rightContent .custom .customBorder {}
+
+.rightContent .custom .customBorder .twomain {}
+
+.rightContent .custom .customBorder .twomain .title {
+    background-color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 10px 10px 0 0;
+}
+
+.rightContent .custom .customBorder .twomain .image {
+    padding: 2rem;
+    height: 100%;
+    border-radius: 0 0 10px 10px;
+}
+
+.rightContent .custom .customBorder .twomain .image img {
+    height: 80%;
+    width: 75%;
+}
+
+
+/* max-size */
+@media (min-width: 1400px) {
+    .why_use {
+        max-width: 1400px;
+    }
+}
+
+/* laptop */
+@media (min-width: 992px) {
+    .mainTwo .box .leftContent .bigCustom .custom .titleMobile {
+        display: none;
+    }
+}
+
+/* tablet */
+@media (max-width: 991px) {
+    .why_use {
+        padding: 0 1rem;
+    }
+
+    .why_use .main .twomain {
+        margin: 0;
+    }
+
+    .why_use .title span {
+        font-size: 16px;
+    }
+}
+
+/* mobile */
+@media only screen and (max-width: 767.9999px) {
+    .why_use {
+        padding: 0 1rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .why_use .title .decs {
+        font-size: 12px;
+    }
+
+    .why_use .main .onemain {
+        flex-direction: column;
+    }
+
+    .twomain .title {
+        padding: 1rem;
+    }
+
+    .mainTwo {
+        width: 100%;
+        flex-direction: column;
+        gap: unset;
+    }
+
+
+    .box .rightContent {
+        display: none;
+    }
+
+    .rightContent .custom .customBorder .twomain .image {
+        display: none;
+
+    }
+
+    .rightContent .custom .customBorder .twomain .title {
+        border-radius: 10px 10px 0 0;
+    }
+
+    .mainTwo .box .leftContent .bigCustom .titleMobile {
+        display: block;
+    }
+
+    .mainTwo .box .leftContent .bigCustom .custom .customBorder {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}

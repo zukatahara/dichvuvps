@@ -1,0 +1,144 @@
+.prices {
+
+    background: linear-gradient(115.89deg, rgba(65, 215, 236, 0.1) 16.3%, rgba(201, 4, 222, 0.1) 83.6%);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+
+}
+
+.prices_mobile {
+    background: linear-gradient(115.89deg, rgba(65, 215, 236, 0.1) 16.3%, rgba(201, 4, 222, 0.1) 83.6%);
+    width: 100%;
+    display: none;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 3rem;
+}
+
+.btn_contact p {
+    margin-left: 10px;
+}
+
+.prices_card {
+    margin: 2rem;
+    width: 450px;
+    height: 684px;
+    border: 2px solid #FAFAFA;
+    border-radius: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    filter: drop-shadow(0px 0px 1px rgba(87, 8, 205, 0.25));
+    text-align: center;
+}
+
+.prices_card_header {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 3rem;
+}
+
+.prices_card_price {
+    margin-top: 3rem;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 64px;
+    align-items: center;
+    color: #5708CD;
+    display: inline-flex;
+}
+
+.prices_card_description {
+    margin-top: 3rem;
+
+}
+
+.prices_card_description ul {
+    list-style-type: none;
+    margin-top: 1rem;
+    margin-left: -10px;
+}
+
+.prices_card_description ul li {
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.prices_card_description li {
+    color: black;
+    font-size: 15px;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    -webkit-mask-repeat: no-repeat;
+}
+
+.check_icon {
+    background-image: url('../../public/images/Vector.svg');
+    width: 16px;
+    height: 14px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+}
+
+.btn_contact {
+    margin-top: 1rem;
+    width: 16rem;
+    height: 4rem;
+    border-radius: 16px;
+    background-color: #5708CD;
+    border: none;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FAFAFA
+}
+
+.btn_basic {
+    display: flex;
+    position: absolute;
+    border: 0;
+    top: -1.5rem;
+    width: 10rem;
+    left: 1rem;
+    height: 3rem;
+    border-radius: 16px;
+    justify-content: center;
+    align-items: center;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FAFAFA
+}
+
+@media (min-width: 1400px) {
+
+    .prices {
+        /* max-width: 1400px; */
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .prices {
+        display: none;
+    }
+
+    .prices_mobile {
+        display: flex;
+    }
+
+    .prices_card_description li {
+        font-size: 14px;
+    }
+}
