@@ -1,14 +1,16 @@
 import styles from "@/styles/Information/information.module.css";
 import { useEffect, useState } from "react";
 
-const Information = (props: any) => {
+const Information = ({ innerWith }: any) => {
+  console.log('innerWith: ', innerWith);
   return (
     <>
       <div className={styles.information} id="infor">
         <div className={styles.first_block}>
           <span className={styles.first_title}>
-            <h1 className={styles.text_gradient}>Dịch vụ PBN </h1> - Chiến
-            lược thúc đẩy tăng trưởng traffic mạnh mẽ sau 2- 3 tháng
+            <h1 className={styles.text_gradient}>Dịch vụ PBN -
+            </h1>
+            Chiến lược thúc đẩy tăng trưởng traffic mạnh mẽ sau 2- 3 tháng
           </span>
           <span className={styles.first_description}>
             <strong></strong>Với chi phí sử dụng hợp lý cùng tác dụng mạnh mẽ
@@ -76,22 +78,18 @@ const Information = (props: any) => {
                 height={190}
                 style={{ display: "block", margin: "0 auto" }}
               />
-              <p>
-                <strong className={styles.title}>
-                  {" "}
-                  Nguồn Backlink chất lượng an toàn
-                </strong>
-              </p>
+              <h3 className={styles.title}>
+                Nguồn Backlink chất lượng an toàn
+              </h3>
 
-              <p className={styles.description} style={{ marginBottom: 0 }}>
+              <p className={styles.description} >
                 Hiện nay PBN được đánh giá là một trong những nguồn backlink
                 chất lượng, an toàn nhất hiện nay. Vì việc lấy link seo từ các
                 diễn đàn đã không còn hiệu quả như trước kia, thậm chí website
                 còn dễ bị google phạt nếu đi quá nhiều backlink từ các diễn đàn
                 kém chất lượng.
               </p>
-              <p className={styles.description}>
-                Do vậy, các dịch vụ PBN được xem là giải pháp thay thế hiệu quả,
+              <p className={styles.description} style={{ display: innerWith > 767 ? "unset" : "none" }}>                Do vậy, các dịch vụ PBN được xem là giải pháp thay thế hiệu quả,
                 an toàn với mức chi phí đầu tư khá hợp lý. Hạn chế được tối đa
                 tình trạng bị các thuật toán của google phạt sau mỗi lần update.
               </p>
@@ -103,15 +101,16 @@ const Information = (props: any) => {
                 height={190}
                 style={{ display: "block", margin: "0 auto" }}
               />
-              <p>
-                <strong className={styles.title}>Tăng thứ hạng từ khóa</strong>
-              </p>
+              <h3 className={styles.title}>
+                Tăng thứ hạng từ khóa
+              </h3>
 
               <p className={styles.description}>
                 Với hệ thống website chất lượng với đa dạng các lĩnh vực, các hệ
                 thống dịch vụ PBN có thể giúp thúc đẩy website của bạn tăng
                 trưởng mạnh mẽ chỉ sau thời gian ngắn.
-                <br />
+              </p>
+              <p className={styles.description} style={{ display: innerWith > 767 ? "unset" : "none" }}>
                 Thậm chí, trong một vài trường hợp hiệu quả thấy rõ sau một vài
                 ngày sử dụng. Điều này đã được chứng minh qua rất nhiều case
                 thực tế mà Dichvupbn.com đã thực hiện.
@@ -124,16 +123,14 @@ const Information = (props: any) => {
                 height={190}
                 style={{ display: "block", margin: "0 auto" }}
               />
-              <p>
-                <strong className={styles.title}>
-                  Tăng uy tín Website , thương hiệu
-                </strong>
-              </p>
-
+              <h3 className={styles.title}>
+                Tăng uy tín Website , thương hiệu
+              </h3>
               <p className={styles.description}>
                 Nhìn chung, tác dụng của hệ thống PBN giống như một phương pháp
                 PR thương hiệu, doanh nghiệp trên mạng lưới internet.
-                <br />
+              </p>
+              <p className={styles.description} style={{ display: innerWith > 767 ? "unset" : "none" }}>
                 Với việc được nhiều website nhắc đến, sự uy tín và mức độ phổ
                 biến của thương hiệu, doanh nghiệp sẽ càng được mở rộng hơn.
                 Không chỉ đối với google mà còn đối với người dùng hiện nay.
@@ -146,8 +143,10 @@ const Information = (props: any) => {
       <div className={styles.use_services}>
         <div className={styles.title}>
           <p className={styles.title_one}>Có nên sử dụng</p>
-          <span>Dịch vụ PBN hay không</span>
-          <p className={styles.decs}>
+          {/* <span>Dịch vụ PBN hay không</span> */}
+          <h3>Dịch vụ PBN hay không</h3>
+
+          <p className={styles.decs} style={{ display: innerWith > 767 ? "unset" : "none" }}>
             Đối với các dụng các dịch vụ PBN, tất nhiên sẽ có ưu thế hơn so với
             các cá nhân chuyên bán nhỏ lẻ. Bởi các đơn vị chuyên cung cấp PBN
             hiện nay đều có nguồn tài nguyên dồi dào với hệ thống các website

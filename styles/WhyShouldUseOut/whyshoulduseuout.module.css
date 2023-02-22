@@ -7,17 +7,19 @@
 }
 
 .why_use .title {
+  padding-left: 7rem;
+  padding-right: 7rem;
   text-align: center;
   margin: auto;
   color: black;
   margin-bottom: 2rem;
 }
 
-.why_use .title span {
+.why_use .title h2 {
   margin: 0;
   font-weight: 800;
   font-size: 32px;
-  background: linear-gradient(#41d7ec, #c904de);
+  background: linear-gradient(to right, #41d7ec, #c904de);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -39,7 +41,7 @@
 .why_use .main .onemain .box {
   border-radius: 12px;
   padding: 2px;
-  background: linear-gradient(#41d7ec, #c904de);
+  background: linear-gradient(to right, #41d7ec, #c904de);
 
   margin-bottom: 1rem;
 }
@@ -55,7 +57,8 @@
 .why_use .main .onemain .box .childOne {
   color: white;
   border-radius: 10px;
-  background-color: #5708cd;
+  background: #5708cd;
+  /* background: transparent; */
   cursor: pointer;
 }
 
@@ -70,7 +73,7 @@
   margin: 0 102px;
   /* border: 1px solid ; */
   border-radius: 12px;
-  background: linear-gradient(115.89deg, #41d7ec 16.3%, #c904de 83.6%);
+  background: linear-gradient(to right, #41d7ec 16.3%, #c904de 83.6%);
   padding: 2px;
   overflow: hidden !important;
 }
@@ -118,7 +121,7 @@
 }
 
 .mainTwo .box .leftContent .bigCustom .custom {
-  background: linear-gradient(#41d7ec, #c904de);
+  /* background: linear-gradient(#41d7ec, #c904de); */
   /* background: linear-gradient(272.8deg, #05D1ED -6.65%, #6D1CBE -6.63%, #00C3FF 146.2%, #00C3FF 146.2%); */
   padding: 2px;
   margin-bottom: 2rem;
@@ -168,16 +171,19 @@
   flex-grow: 0;
   cursor: pointer;
 }
-
+.mainTwo .box .leftContent .bigCustom .custom .customBorder p {
+  flex-basis: 90%;
+}
 .mainTwo .box .leftContent .bigCustom .titleMobile .content {
   margin-top: -1rem;
   color: rgba(92, 92, 92, 1);
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
     to bottom,
     #e9f7ff 0%,
     #ffdbd4 51.05%,
     #f8caff 100%
-  );
+  ); */
+  background: linear-gradient(to right, #41d7ec 16.3%, #c904de 83.6%);
   /* background-color: red; */
   display: flex;
   flex-direction: row;
@@ -201,7 +207,7 @@
   display: flex;
   padding: 1rem;
   background-color: white !important;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 .mainTwo .box .leftContent .bigCustom .custom .customBorder p {
@@ -235,12 +241,13 @@
 
 .rightContent .custom .customBorder .twomain .title {
   background-color: white;
-  padding: 1rem 1.5rem;
+  padding: 24px 39px;
   border-radius: 10px 10px 0 0;
 }
 
 .rightContent .custom .customBorder .twomain .image {
   padding: 2rem;
+  padding-top: 0;
   height: 100%;
   border-radius: 0 0 10px 10px;
 }
@@ -269,6 +276,10 @@
   .why_use {
     padding: 0 1rem;
   }
+  .why_use .title {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
   .why_use .main .onemain {
     padding: 0;
   }
@@ -276,8 +287,8 @@
     margin: 0;
   }
 
-  .why_use .title span {
-    font-size: 16px;
+  .why_use .title h2 {
+    font-size: 32px;
   }
 }
 
@@ -288,7 +299,13 @@
     margin-top: 2rem;
     margin-bottom: 0;
   }
-
+  .why_use .title {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .why_use .title h2 {
+    font-size: 16px;
+  }
   .why_use .title .decs {
     font-size: 12px;
   }

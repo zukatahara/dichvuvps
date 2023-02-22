@@ -14,11 +14,11 @@
   margin-bottom: 2rem;
 }
 
-.newStep .title span {
+.newStep .title h2 {
   margin: 0;
   font-weight: 800;
   font-size: 32px;
-  background: linear-gradient(#41d7ec, #c904de);
+  background: linear-gradient(to right, #41d7ec, #c904de);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -179,7 +179,15 @@
   .newStep .main {
     padding: 32px 17px;
   }
-
+  .newStep .title h2 {
+    font-size: 16px;
+  }
+  .newStep .title {
+    margin-bottom: 24px;
+  }
+  .newStep .title .title_one {
+    font-size: 14px;
+  }
   .main .box .content .rightContent {
     flex-basis: 84%;
     padding-left: 1rem;

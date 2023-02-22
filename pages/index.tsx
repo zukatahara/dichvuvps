@@ -12,9 +12,17 @@ import Footer from "@/components/Footer";
 import SidebarMobile from "@/components/SidebarMobile";
 import WhyShouldUseOut from './../components/WhyShouldUseOut/index';
 import NewStep from "../components/NewStep/index";
+import { useEffect } from 'react';
+import { useState } from 'react';
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+  const [innerWith, setInnerWith] = useState(0)
+  useEffect(() => {
+    console.log(window.innerWidth, `aaa`);
+    setInnerWith(window.innerWidth)
+
+  }, [])
   return (
     <>
       <Head>
@@ -33,7 +41,9 @@ export default function Home() {
           src="/images/background-blur-2.png"
           className={styles.background_blur_2}
         />
-        <Information />
+        <Information
+          innerWith={innerWith}
+        />
         {/* <div className={styles.procedure} id="procedure">
           <p className={styles.title}>Quy trình làm việc </p>
           <br />
@@ -74,7 +84,9 @@ export default function Home() {
           <Prices />
         </div>
         <div style={{ width: "100%" }}>
-          <WhyShouldUseOut />
+          <WhyShouldUseOut
+            innerWith={innerWith}
+          />
         </div>
         <div style={{ width: "100%" }}>
           <NewStep />
@@ -96,8 +108,8 @@ export default function Home() {
         </div>
         <div className={styles.ticket} id="ticket">
           <p className={styles.title}>Đặt mua </p>
-          <br />
-          <p className={styles.title_gradient}>PBN CHẤT LƯỢNG CAO</p>
+          
+          <h2 className={styles.title_gradient}>PBN CHẤT LƯỢNG CAO</h2>
           <div className={styles.ticketWrapper}>
             <Ticket />
           </div>

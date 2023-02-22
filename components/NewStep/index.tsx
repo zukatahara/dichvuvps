@@ -9,7 +9,7 @@ const NewStep = () => {
                     <p className={styles.title_one}>
                         Quy trình triển khai
                     </p>
-                    <span>Dịch vụ PBN</span>
+                    <h2>Dịch vụ PBN</h2>
                 </div>
                 <div className={styles.main}>
                     <div className={styles.box}>
