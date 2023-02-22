@@ -81,7 +81,7 @@ export default function Home() {
         <div className={styles.prices} id="prices">
           <p className={styles.title}>Bảng giá </p>
 
-          <p className={styles.title_gradient}>MUA BÁN DỊCH VỤ PBN</p>
+          <h2 className={styles.title_gradient}>Mua bán dịch vụ PBN</h2>
           <Prices />
         </div>
         <div style={{ width: "100%" }}>
