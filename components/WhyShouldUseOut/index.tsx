@@ -3,7 +3,6 @@ import { useState } from 'react';
 // import arr from './data';
 
 const WhyShouldUseOut = ({ innerWith }: any) => {
-  console.log(innerWith, `quyquy`);
 
   const [buttonSpan, setButtonSpan] = useState(0);
   const [pTagColor, setPTagColor] = useState(0);
@@ -120,7 +119,7 @@ const WhyShouldUseOut = ({ innerWith }: any) => {
           <div className={styles.box}>
             <div className={styles.leftContent}>
               <div className={styles.bigCustom}>
-                <div className={styles.custom} style={{ background: pTagColor === 0 ? "transparent" : "linear-gradient(#41d7ec, #c904de" }}>
+                <div className={styles.custom} style={{ background: pTagColor === 0 ? "transparent" : "linear-gradient(to right,  #41d7ec, #c904de" }}>
                   <div className={styles.customBorder} onClick={() => setPTagColor(0)} style={{ background: pTagColor === 0 ? "#5708cd" : "white" }}>
                     <p style={{ color: pTagColor === 0 ? "white" : "rgba(188, 156, 235, 1)" }} >Tỷ lệ Google phát hiện footprint cực kỳ thấp</p>
                     {/* <img src="/images/prenext.svg" height={27} width={27} /> */}
@@ -162,7 +161,7 @@ const WhyShouldUseOut = ({ innerWith }: any) => {
                 </div>
               </div>
               <div className={styles.bigCustom}>
-                <div className={styles.custom} style={{ background: pTagColor === 1 ? "transparent" : "linear-gradient(#41d7ec, #c904de" }}>
+                <div className={styles.custom} style={{ background: pTagColor === 1 ? "transparent" : "linear-gradient(to right,  #41d7ec, #c904de" }}>
                   <div className={styles.customBorder} style={{ background: pTagColor === 1 ? "#5708cd" : "white" }} onClick={() => setPTagColor(1)}>
                     <p style={{ color: pTagColor === 1 ? "white" : "rgba(188, 156, 235, 1)", }}>Các liên kết được đặt một cách phù hợp và tự nhiên </p>
                     {/* <img src="/images/prenext.svg" height={27} width={27} /> */}
@@ -201,7 +200,7 @@ const WhyShouldUseOut = ({ innerWith }: any) => {
                 </div>
               </div>
               <div className={styles.bigCustom}>
-                <div className={styles.custom} style={{ background: pTagColor === 2 ? "transparent" : "linear-gradient(#41d7ec, #c904de" }}>
+                <div className={styles.custom} style={{ background: pTagColor === 2 ? "transparent" : "linear-gradient(to right,  #41d7ec, #c904de" }}>
                   <div className={styles.customBorder} style={{ background: pTagColor === 2 ? "#5708cd" : "white" }} onClick={() => setPTagColor(2)}>
                     <p style={{ color: pTagColor === 2 ? "white" : "rgba(188, 156, 235, 1)" }}>Tính độc đáo và số lượng của website trong hệ thống </p>
                     {/* <img src="/images/prenext.svg" height={27} width={27} /> */}
@@ -252,7 +251,7 @@ const WhyShouldUseOut = ({ innerWith }: any) => {
                 </div>
               </div>
               <div className={styles.bigCustom}>
-                <div className={styles.custom} style={{ background: pTagColor === 3 ? "transparent" : "linear-gradient(#41d7ec, #c904de" }}>
+                <div className={styles.custom} style={{ background: pTagColor === 3 ? "transparent" : "linear-gradient(to right,  #41d7ec, #c904de" }}>
                   <div className={styles.customBorder} style={{ background: pTagColor === 3 ? "#5708cd" : "white" }} onClick={() => setPTagColor(3)}>
                     <p style={{ color: pTagColor === 3 ? "white" : "rgba(188, 156, 235, 1)" }}>Premium Web Hosting</p>
                     {/* <img src="/images/prenext.svg" height={27} width={27} /> */}
@@ -296,7 +295,7 @@ const WhyShouldUseOut = ({ innerWith }: any) => {
                 </div>
               </div>
               <div className={styles.bigCustom}>
-                <div className={styles.custom} style={{ background: pTagColor === 4 ? "transparent" : "linear-gradient(#41d7ec, #c904de" }}>
+                <div className={styles.custom} style={{ background: pTagColor === 4 ? "transparent" : "linear-gradient(to right,  #41d7ec, #c904de" }}>
                   <div className={styles.customBorder} style={{ background: pTagColor === 4 ? "#5708cd" : "white" }} onClick={() => setPTagColor(4)}>
                     <p style={{ color: pTagColor === 4 ? "white" : "rgba(188, 156, 235, 1)" }}>Domain</p>
 
@@ -338,7 +337,7 @@ const WhyShouldUseOut = ({ innerWith }: any) => {
                 </div>
               </div>
               <div className={styles.bigCustom}>
-                <div className={styles.custom} style={{ background: pTagColor === 5 ? "transparent" : "linear-gradient(#41d7ec, #c904de" }}>
+                <div className={styles.custom} style={{ background: pTagColor === 5 ? "transparent" : "linear-gradient(to right,  #41d7ec, #c904de" }}>
                   <div className={styles.customBorder} style={{ background: pTagColor === 5 ? "#5708cd" : "white" }} onClick={() => setPTagColor(5)}>
                     <p style={{ color: pTagColor === 5 ? "white" : "rgba(188, 156, 235, 1)" }}>IP Lớp A, B, C</p>
                     {/* <img src="/images/prenext.svg" height={27} width={27} /> */}
@@ -380,7 +379,7 @@ const WhyShouldUseOut = ({ innerWith }: any) => {
                 </div>
               </div>
               <div className={styles.bigCustom}>
-                <div className={styles.custom} style={{ background: pTagColor === 6 ? "transparent" : "linear-gradient(#41d7ec, #c904de" }}>
+                <div className={styles.custom} style={{ background: pTagColor === 6 ? "transparent" : "linear-gradient(to right,  #41d7ec, #c904de" }}>
                   <div className={styles.customBorder} style={{ background: pTagColor === 6 ? "#6708cd" : "white" }} onClick={() => setPTagColor(6)}>
                     <p style={{ color: pTagColor === 6 ? "white" : "rgba(188, 156, 235, 1)" }}>Tùy chỉnh tự nhiên</p>
                     {/* <img src="/images/prenext.svg" height={27} width={27} /> */}

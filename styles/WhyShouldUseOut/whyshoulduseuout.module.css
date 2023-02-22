@@ -217,9 +217,7 @@
 .mainTwo .box .rightContent {
   border-radius: 12px;
   border: 1px solid transparent;
-  /* margin: 2px; */
   padding: 1px;
-  /* background: red; */
   background: linear-gradient(
     272.8deg,
     #05d1ed -6.65%,

@@ -14,12 +14,12 @@ import WhyShouldUseOut from './../components/WhyShouldUseOut/index';
 import NewStep from "../components/NewStep/index";
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { url } from "inspector";
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   const [innerWith, setInnerWith] = useState(0)
   useEffect(() => {
-    console.log(window.innerWidth, `aaa`);
     setInnerWith(window.innerWidth)
 
   }, [])
@@ -33,15 +33,15 @@ export default function Home() {
         <meta name='dmca-site-verification' content='RGNwL2Z2S2lNYTdUNWp4NUlnRCtzUT090' />
       </Head>
       <Navbar />
-      <main className={styles.main}>
-        <img
+      <main className={styles.main} >
+        {/* <img
           src="/images/background-blur.png"
           className={styles.background_blur}
-        />
-        <img
+        /> */}
+        {/* <img
           src="/images/background-blur-2.png"
           className={styles.background_blur_2}
-        />
+        /> */}
         <Information
           innerWith={innerWith}
         />

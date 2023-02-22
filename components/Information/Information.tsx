@@ -2,15 +2,14 @@ import styles from "@/styles/Information/information.module.css";
 import { useEffect, useState } from "react";
 
 const Information = ({ innerWith }: any) => {
-  console.log('innerWith: ', innerWith);
   return (
     <>
       <div className={styles.information} id="infor">
         <div className={styles.first_block}>
           <span className={styles.first_title}>
-            <h1 className={styles.text_gradient}>Dịch vụ PBN -
+            <h1 className={styles.text_gradient}>Dịch vụ PBN&nbsp;
             </h1>
-            Chiến lược thúc đẩy tăng trưởng traffic mạnh mẽ sau 2- 3 tháng
+            <p style={{ textAlign: "left" }}>- Chiến lược thúc đẩy tăng trưởng traffic mạnh mẽ sau 2- 3 tháng</p>
           </span>
           <span className={styles.first_description}>
             <strong></strong>Với chi phí sử dụng hợp lý cùng tác dụng mạnh mẽ
